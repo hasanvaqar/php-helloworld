@@ -1,6 +1,1 @@
-#!/bin/bash
-cp -Rf /tmp/src/*.html ./
-DATE=$(date "+%F")
-echo "Page built on $DATE" > info.html
-echo "Proudly served by Apache HTTP Server" >> info.html
 

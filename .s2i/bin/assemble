@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Call the default assemble script to handle the regular build process
-/usr/libexec/s2i/assemble
-
 # Custom additions to create an info page
 DATE=`date "+%b %d, %Y @ %H:%M %p"`
 

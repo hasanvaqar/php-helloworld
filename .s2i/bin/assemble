@@ -1,1 +1,2 @@
-
+#! bash
+expose SERVER_PORT=8081

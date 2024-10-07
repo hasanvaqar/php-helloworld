@@ -1,2 +1,4 @@
 #!/bin/bash
-export SERVER_PORT=8081
+DATE=$(date "+%F")
+echo "Page built on $DATE" > info.html
+echo "Proudly served by Apache HTTP Server" >> info.html
